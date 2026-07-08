@@ -1,0 +1,15 @@
+Grafana Loki Setup
+
+1. Pull the Loki Docker image:
+docker pull grafana/loki
+
+2. Run Loki:
+docker run -d --name loki -p 3100:3100 grafana/loki
+
+3. Verify Loki is running:
+http://localhost:3100/ready
+
+4. View container logs:
+docker logs loki
+
+This setup can be extended to collect logs from Docker containers or Nomad jobs.
