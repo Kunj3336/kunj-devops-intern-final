@@ -1,3 +1,5 @@
+[![Python CI](https://github.com/Kunj3336/kunj-devops-intern-final/actions/workflows/ci.yml/badge.svg)](https://github.com/Kunj3336/kunj-devops-intern-final/actions/workflows/ci.yml)
+
 # DevOps Intern Final Assessment
 
 **Name:** Kunj Patel
